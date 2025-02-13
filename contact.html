@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+
+        <div id="vigate2">
+            <div>
+               <div id="branding">
+                   <img src="logo.png" width="90" height="45">
+               </div>
+               <nav>
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="about.html">About Us</a></li>
+                       <li><a href="gallery.html">Gallery</a></li>
+                       <li><a href="contact.html">Contact Us</a></li>
+                   </ul>
+               </nav>
+           </div> 
+       </div>
+       <br> <br> 
+    </header>
+
+    <br>
+    <hr class="gradient-line" />
+
+
+                <div class="container">
+
+                <div class="content">
+                  <div class="left-side"> 
+
+                    <div class="details">
+                      <a href="https://instagram.com/childscholarinitiative" target="_blank">
+                      <i class="fa fa-camera"></i> </a>
+                      <div class="topic">Instagram</div>
+                    </div>
+
+                    <div class="details">
+                      <i class="fas fa-phone-alt"></i>
+                      <div class="topic">Phone</div>
+                      <div class="text-one">+234 805 418 0545</div>
+                      <div class="text-two">+234 909 500 9999</div>
+                    </div>
+
+                    <div class="details">
+                      <a href="mailto:childscholarinitiative@gmail.com" target="_blank">
+                      <i class="fas fa-envelope"></i> </a>
+                      <div class="topic">Email</div>
+                      <div class="text-one">praymompray@gmail.com</div>
+                      <div class="text-two">childscholarinitiative@gmail.com</div>
+                    </div>
+                  
+                  </div>
+                  <div class="right-side">
+                    <div class="topic-text">Send us a message</div>
+                   
+                  <form action="contact.php" method="post">
+                    <div class="input-box">
+                      <input type="text" placeholder="Enter your name" name="name">
+                    </div>
+                    <div class="input-box">
+                      <input type="text" placeholder="Enter your email" name="email">
+                    </div>
+                    <div class="input-box message-box">
+                      <input type="text" placeholder="Enter message." name = " message">
+                    </div>
+                    <div>
+                      <p class="success"> <?php echo $success;  ?></p>
+                      <p class="failed"> <?php echo $failed;  ?></p>
+                   </div>
+                    <div class="press">
+                      
+                      <input type="submit" value="Send Now" name="submit" id="contact-submit" data-submit="...Sending" >
+                    </div>
+                  </form>
+                </div>
+                </div>
+
+              </div>
+              
+        </div>
+    <br><br>
+    <br class=big style="line-height:10%;vertical-align:top">
+</body>
+    <footer>
+      
+            
+      <p> &copy; <a href="mailto:susanmboso@gmail.com"> Susan Mboso</a> 2022 </p> 
+    </footer>
+
+
+</body>
+</html>
